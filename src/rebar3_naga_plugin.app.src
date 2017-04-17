@@ -1,0 +1,12 @@
+{application, rebar3_naga_plugin,
+ [{description, "A rebar plugin"}
+ ,{vsn, "0.2.0"}
+ ,{registered, []}
+ ,{applications, [kernel, stdlib, erlydtl]}
+ ,{env,[]}
+ ,{modules, []}
+
+ ,{contributors, ["Chan sisowath"]}
+ ,{licenses, ["MIT"]}
+ ,{links, [{"Github", "https://github.com/naga-framework/rebar3_naga_plugin"}]}
+ ]}.
